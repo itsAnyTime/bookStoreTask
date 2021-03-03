@@ -1,0 +1,14 @@
+{
+  "books": [
+    {
+      "author": "gdsfg",
+      "title": "Godine",
+      "year": "1976",
+      "date": "03/03/2021",
+      "id": "XtnYb-AprMPZv72DST14S",
+      "price": "1600 din."
+    }
+  ],
+  "users": [],
+  "orders": []
+}
