@@ -15,7 +15,8 @@ const addBook = (req, res) => {
     const book = {
         author:req.body.author,
         title:req.body.title,
-        year:req.body.year
+        year:req.body.year,
+        price: req.body.price
     };
     const date = new Date()
     db.get('books').push({ ...book, date:date.toLocaleDateString(), id: nanoid()}).write();
